@@ -1,1 +1,2 @@
 创建oracle表空间：create tablespace xxx datafile 'C:\oracle\xxx.dbf'  size 10m autoextend on
+孙宇老师的博客地址：yusun.iteye.com/blog/1671636
