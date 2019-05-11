@@ -12,12 +12,12 @@ maven 创建：
    <version>3.4.2</version>
 </dependency>
 
-# 如何将本地或者下载的jar包引入到maven项目中
+# 如何将本地或者下载的jar包引入到maven项目中：
 https://blog.csdn.net/luoweiyou/article/details/79639588
-root]#  mvn install:install-file   -Dfile=java-bloomfilter-1.0.jar  -DgroupId=com.sina  -DartifactId=java-bloomfilter -Dversion=1.0  
--Dpackaging=jar
+cmd: mvn install:install-file   -Dfile=java-bloomfilter-1.0.jar  -DgroupId=com.sina  -DartifactId=java-bloomfilter -Dversion=1.0 : 
+     -Dpackaging=jar
  上面的命令解释：
  -Dfile：指明你当前jar包的位置（就是第1步存放jar的路径+jar包名）；
  -DgroupId， -DartifactId，  -Dversion：三个参数，就是指明了存放maven仓库中的位置；
  -Dpackaging ：文件的类型
---------------------- 
+ #
